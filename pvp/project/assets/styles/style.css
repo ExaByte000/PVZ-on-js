@@ -1,0 +1,71 @@
+body {
+    background: #095A2C;
+    overflow: hidden;
+}
+@font-face {
+    font-family: 'Balsamiq Sans';
+}
+.bgosnova {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    width:1100px;
+    height:650px;
+}
+
+#canvas1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "serio", serif;
+}
+.mainmenu {
+    background-image: url(../images/backgrounds/menufoto.png);
+    position: absolute;
+    width: 1040px;
+    height:650px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.buttons{
+    margin-top:-250px;
+    position: absolute;
+    width:1100px;
+    height:650px;
+    /* border: 1px solid black; */
+}
+.button_start{
+    position: absolute;
+    margin-left: 570px;
+    margin-top:80px;
+    /*border: 1px solid black;*/
+    width:435px;
+    height:245px;
+}
+.startbutton1 {
+    width:435px;
+    height:245px;
+    /* border: 1px solid yellow; */
+}
+.name {
+    position: absolute;
+    margin-left: 25px;
+    margin-top:80px;
+
+}
+.name input {
+    color:white;
+    width:505px;
+    height:53px;
+    /*border-radius:0px;*/
+    font-weight: bold;
+    font-size: 25px;
+    text-align:center;
+    background: rgba(205, 214, 219, 0.0);
+    /*color: white;*/
+    border-width: 0;
+    outline: none;
+}
